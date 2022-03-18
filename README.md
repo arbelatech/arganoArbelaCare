@@ -5,14 +5,20 @@ Power Platform based Solution to Check-in on your employees and provide the supp
 
 ### Prerequisites
 * Have access to an Office 365 User with a Power Apps license
-* Have system admin access to a target power apps environment where the solution will be deployed
-* Download the Managed Solution file ""
-* Download all Sample Data files (.xlsx) - If any.
+* Have system admin access to a target Power Apps environment where the solution will be deployed
+* Visual Studio Code
+* <a href = "https://docs.microsoft.com/en-us/powerapps/developer/data-platform/powerapps-cli">Power Platform VS Code Extension</a>
 
 ### Download and Pack the Solution
-1. Download from the solution from GitHub
-2. Use the Power Apps CLI tool to pack the unpacked solution within the "source" directory. 
-3. Use the produced Solution Zip file to import to your target environment. 
+1. Open a termina
+2. Clone Git Repository 
+2. Go to the root of the cloned repo
+3. Run the 
+```powershell{15}
+pac solution pack --zipfile {Full Path to Target Directory} --folder .\source 
+```
+3. Use the Power Apps CLI tool to pack the unpacked solution within the "source" directory. 
+4. Use the produced Solution Zip file to import to your target environment. 
 
 ### Install Solution
 1. Go to https://make.powerapps.com/, select your target environment, and open "Solutions"
