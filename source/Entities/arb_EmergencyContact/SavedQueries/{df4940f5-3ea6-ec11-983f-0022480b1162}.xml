@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{df4940f5-3ea6-ec11-983f-0022480b1162}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="arb_name" select="1" icon="1" preview="1">
+        <row name="result" id="arb_emergencycontactid">
+          <cell name="arb_name" width="200" />
+          <cell name="arb_displaycontactinformation" width="100" />
+          <cell name="arb_phonenumber" width="100" />
+          <cell name="arb_systemuser" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="arb_emergencycontact">
+          <attribute name="arb_name" />
+          <attribute name="arb_emergencycontactid" />
+          <attribute name="arb_displaycontactinformation" />
+          <attribute name="arb_phonenumber" />
+          <attribute name="arb_systemuser" />
+          <filter type="and">
+            <condition attribute="arb_displaycontactinformation" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.7</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Displayed Emergency Contacts" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

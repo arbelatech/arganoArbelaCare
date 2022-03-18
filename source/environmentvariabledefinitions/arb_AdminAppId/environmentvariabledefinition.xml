@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="arb_AdminAppId">
+  <description default="GUID of arganoArbela Cares Admin App (Model-Driven). Leave blank for the first import. Once the solution is installed, find this value in the details pane of the arganoArbela Cares Admin App.">
+    <label description="GUID of arganoArbela Cares Admin App (Model-Driven). Leave blank for the first import. Once the solution is installed, find this value in the details pane of the arganoArbela Cares Admin App." languagecode="1033" />
+  </description>
+  <displayname default="arganoArbela Cares Admin App Id">
+    <label description="arganoArbela Cares Admin App Id" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.7</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

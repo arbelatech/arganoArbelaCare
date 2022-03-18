@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="arb_FinancialRequestContacts">
+  <description default="Semi-colon separated list of email addresses of people who should receive notification of Financial Requests">
+    <label description="Semi-colon separated list of email addresses of people who should receive notification of Financial Requests" languagecode="1033" />
+  </description>
+  <displayname default="Financial Request Contacts">
+    <label description="Financial Request Contacts" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.7</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

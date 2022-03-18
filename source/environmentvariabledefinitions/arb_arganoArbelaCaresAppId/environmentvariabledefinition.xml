@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="arb_arganoArbelaCaresAppId">
+  <description default="GUID of arganoArbela Cares Canvas App">
+    <label description="GUID of arganoArbela Cares Canvas App" languagecode="1033" />
+  </description>
+  <displayname default="arganoArbela Cares App Id">
+    <label description="arganoArbela Cares App Id" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.7</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

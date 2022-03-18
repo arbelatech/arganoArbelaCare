@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="arb_EnvironmentURL">
+  <description default="URL of the target environment (ex: https://orgXXXX.crm.dynamics.com/). It can be found in the admin center">
+    <label description="URL of the target environment (ex: https://orgXXXX.crm.dynamics.com/). It can be found in the admin center" languagecode="1033" />
+  </description>
+  <displayname default="Environment URL">
+    <label description="Environment URL" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.7</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

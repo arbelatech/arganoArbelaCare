@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="arb_ArganoArbelaCareDashboard">
+  <description default="Used for the dashboard displayed in the arganoArbela Cares Admin App">
+    <label description="Used for the dashboard displayed in the arganoArbela Cares Admin App" languagecode="1033" />
+  </description>
+  <displayname default="ArganoArbelaCare Dashboard">
+    <label description="ArganoArbelaCare Dashboard" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.7</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000003</type>
+</environmentvariabledefinition>

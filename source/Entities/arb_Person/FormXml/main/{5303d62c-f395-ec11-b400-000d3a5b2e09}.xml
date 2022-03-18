@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5303d62c-f395-ec11-b400-000d3a5b2e09}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{2de8f79e-5eff-4017-bead-8384ee496deb}" IsUserDefined="1" labelid="{98d58865-9db7-4d69-b6e1-970c9171112c}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{a25e2cad-d155-4d6e-b35d-be8ba472af04}" labelid="{17c2286b-039a-4359-b07f-d0f4551a7948}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2b0682d9-7b30-4136-a8db-dc8cc1478dff}" labelid="{f5b5103a-e133-4c3e-bdff-2c5d62439ec8}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="arb_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="arb_name" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{887c3447-64e0-42e6-8f13-d35b4f03a0b5}" visible="false" labelid="{9525f6e8-9d34-43f2-a377-fc70270ea775}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aff66191-ec42-4673-8b78-026f7ad24422}" locklevel="0" colspan="1" rowspan="1" labelid="{2d04b9f1-1297-4c37-9bbb-829dc7bb5d01}">
+                        <labels>
+                          <label description="User" languagecode="1033" />
+                        </labels>
+                        <control id="arb_systemuser" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="arb_systemuser" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d805e696-3c7f-4e7a-8e16-65fd9e4fad99}" locklevel="0" colspan="1" rowspan="1" labelid="{c2d1cad8-a21a-4279-a6f8-2cf459c1cbf8}">
+                        <labels>
+                          <label description="Emergency Contact" languagecode="1033" />
+                        </labels>
+                        <control id="arb_emergencycontact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="arb_emergencycontact" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d24a2274-3f5c-43ed-b0d0-cf1b115fe4e5}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{1942b4b9-d33e-43f7-b6cb-2e9a7d077ff9}" showlabel="false" labelid="{b26f7c8c-2b7b-47d6-ae33-b1005de34119}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a689a4e6-bb0e-4232-9577-66eeb1f15e61}" showlabel="false" labelid="{109ef0c1-0eda-4bfe-927c-053d8e1807f1}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fe384b3c-5f43-4342-9754-88373c4a2810}" showlabel="false" labelid="{ef705c19-6b93-427f-a709-6b547dbeaea8}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{3d395728-e537-4da5-b794-a53173e1a91c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d048c956-7c37-45bf-a80f-9d35243370b7}" showlabel="false" labelid="{a4bd3517-9db3-46b3-a793-40ed7a3a1516}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f32b889e-b0ba-4964-ab68-0b1c5f4a6554}" showlabel="false" labelid="{00224707-23bc-4546-ab56-748cb99ffd2b}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ed41d608-a64f-477e-afcb-da421335713d}" showlabel="false" labelid="{d4ff2e0e-630d-49eb-92fe-087e235eab70}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Person main form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

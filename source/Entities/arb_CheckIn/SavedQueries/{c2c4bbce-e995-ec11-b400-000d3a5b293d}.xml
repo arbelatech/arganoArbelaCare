@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c2c4bbce-e995-ec11-b400-000d3a5b293d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="arb_name" select="1" icon="1" preview="1">
+        <row name="result" id="arb_checkinid">
+          <cell name="arb_name" width="100" />
+          <cell name="arb_person" width="100" />
+          <cell name="createdon" width="100" />
+          <cell name="arb_safe" width="100" />
+          <cell name="arb_longitude" width="100" />
+          <cell name="arb_latitude" width="100" />
+          <cell name="arb_comments" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="arb_checkin">
+          <attribute name="arb_checkinid" />
+          <attribute name="arb_person" />
+          <attribute name="createdon" />
+          <attribute name="arb_safe" />
+          <attribute name="arb_longitude" />
+          <attribute name="arb_latitude" />
+          <attribute name="arb_comments" />
+          <attribute name="arb_name" />
+          <order attribute="createdon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Admin Check-Ins" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
