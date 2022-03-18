@@ -10,15 +10,15 @@ Power Platform based Solution to Check-in on your employees and provide the supp
 * <a href = "https://docs.microsoft.com/en-us/powerapps/developer/data-platform/powerapps-cli">Power Platform VS Code Extension</a>
 
 ### Download and Pack the Solution
-1. Open a terminal
-2. Clone t
+1. Clone the Git Repository.
+2. Open a Terminal within Visual Studio Code.
 3. Go to the root of the cloned repository.
 4. Use the Power Apps CLI tool to pack the unpacked solution within the "source" directory:
 
 ```powershell{15}
 pac solution pack --zipfile {FullPath\TargetDirectory\ZipFile.zip} --folder .\source 
 ```
-6. Use the produced Solution Zip file to import to your target environment. 
+5. Use the produced Solution Zip file to import to your target environment. 
 
 ### Install Solution
 1. Go to https://make.powerapps.com/, select your target environment, and open "Solutions"
