@@ -11,7 +11,7 @@ Power Platform based Solution to Check-in on your employees and provide the supp
 
 ### Download and Pack the Solution
 1. Download from the solution from GitHub
-2. Use the Power Apps CLI tool to pack the unpacked solution within the source directory. 
+2. Use the Power Apps CLI tool to pack the unpacked solution within the "source" directory. 
 3. Use the produced Solution Zip file to import to your target environment. 
 
 ### Install Solution
